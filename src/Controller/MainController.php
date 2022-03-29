@@ -433,6 +433,28 @@ class MainController extends Controller
         return $this->redirect("adminPosts");
     }
 
+    public function admincontact()
+    {
+        $query = $this->getDatabase()->getPdo()->query("SELECT * FROM sellContact WHERE status = 0");
+        $contacts = $query->fetchAll();
+
+        return $this->render("admincontact", [
+            "title" => "Contact pour vente ",
+            "contacts" => $contacts
+        ]);
+    }
+
+    public function admincontactview($id)
+    {
+        $query = $this->getDatabase()->getPdo()->query("SELECT * FROM sellContact WHERE id = '$id'");
+        $contact = $query->fetch();
+
+        return $this->render("admincontactview", [
+            "title" => "Contact pour vente ",
+            "contact" => $contact
+        ]);
+    }
+
     public function adminpostsedit($id)
     {
         if (!isset($_SESSION['auth'])) return $this->redirect("home");

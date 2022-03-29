@@ -21,6 +21,11 @@
                     Articles
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/contact">
+                    Contact vente
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

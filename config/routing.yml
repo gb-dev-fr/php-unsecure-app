@@ -118,3 +118,13 @@ legal:
     parameters: {}
     controller: Controller\MainController
     action: legal
+adminContact:
+    path: /admin/contact
+    parameters: {}
+    controller: Controller\MainController
+    action: admincontact
+adminContactview:
+    path: /admin/contact/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: admincontactview
