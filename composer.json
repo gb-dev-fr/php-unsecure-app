@@ -1,0 +1,16 @@
+{
+    "name": "gbdev/php-unsecure-app",
+    "description": "Concevoir un framework PHP POO MVC",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/yaml": "6.1.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "": "src"
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.home-cover {
+    padding: 20px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc(80vh - 56px);
+}
+
+.navbar .nav-link {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar .nav-link.active {
+    color: #e70411 !important;
+}
+
+.navbar .nav-link:hover {
+    color: rgba(227,6,19,.5) !important;
+}
+
+.navbar .nav-link {
+    align-items: center;
+}
+
+.navbar .nav-link .material-icons {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.auth form {
+    height: max-content;
+}
+
+footer {
+    overflow: auto;
+}
+
+.topbar .nav-link {
+    color: #ffffff !important;
+}
+
+.topbar .nav-link:hover {
+    color: #d9d9d9 !important;
+}
+
+.text-immo {
+    color: #e70411;
+}
+
+a.text-immo:hover {
+    color: #cb040f;
+}
+
+.bg-immo, .btn-immo {
+    background-color: #e70411;
+}
+
+.btn-immo:hover {
+    background-color: #cb040f;
+    color: #ffffff;
+}
+
+.btn-outline-immo:hover {
+    background-color: rgba(227,6,19,.14);
+}
+
+.btn-immo {
+    color: #ffffff;
+}
+
+.bg-immo.bg-opacity-10 {
+    background-color: rgba(227,6,19,.14);
+}
+
+.box .card, .box:hover .card, .box:hover .card .card-title {
+    transition: all .3s ease;
+}
+
+.box:hover .card, .btn-outline-immo {
+    border-color: #e70411;
+}
+
+.box:hover .card .card-title, .btn-outline-immo {
+    color: #e70411;
+}
+
+.form-control:focus {
+    border-color: #e70411;
+    box-shadow: 0 0 0 .25rem rgba(227,6,19,.14);
+}
+
+.sidebar .nav-link:focus, .nav-link:hover {
+    color: #cb040f;
+}
+
+.sidebar .nav-link, .nav-link {
+    color: #e70411;
+}
+
+.sidebar {
+    height: 100%;
+}
+
+.z-top {
+    z-index: 999;
+}
+
+.banner-img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center bottom;
+}

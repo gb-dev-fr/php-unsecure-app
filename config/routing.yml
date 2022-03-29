@@ -1,0 +1,120 @@
+home:
+    path: /
+    parameters: {}
+    controller: Controller\MainController
+    action: home
+location:
+    path: /louer
+    parameters: {}
+    controller: Controller\MainController
+    action: location
+sell:
+    path: /vendre
+    parameters: {}
+    controller: Controller\MainController
+    action: sell
+buy:
+    path: /acheter
+    parameters: {}
+    controller: Controller\MainController
+    action: buy
+agency:
+    path: /notre-agence
+    parameters: {}
+    controller: Controller\MainController
+    action: agency
+blog:
+    path: /blog
+    parameters: {}
+    controller: Controller\MainController
+    action: blog
+blogview:
+    path: /blog/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: blogview
+bienview:
+    path: /biens/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: bienview
+connexion:
+    path: /se-connecter
+    parameters: {}
+    controller: Controller\MainController
+    action: login
+inscription:
+    path: /inscription
+    parameters: {}
+    controller: Controller\MainController
+    action: register
+admin:
+    path: /admin
+    parameters: {}
+    controller: Controller\MainController
+    action: admin
+adminUsers:
+    path: /admin/users
+    parameters: {}
+    controller: Controller\MainController
+    action: adminusers
+adminUsersDelete:
+    path: /admin/users/delete/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: adminusersdelete
+adminBiens:
+    path: /admin/biens
+    parameters: {}
+    controller: Controller\MainController
+    action: adminbiens
+adminBiensAdd:
+    path: /admin/biens/add
+    parameters: {}
+    controller: Controller\MainController
+    action: adminbiensadd
+adminBiensDelete:
+    path: /admin/biens/delete/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: adminbiensdelete
+adminBiensEdit:
+    path: /admin/biens/edit/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: adminbiensedit
+adminPosts:
+    path: /admin/posts
+    parameters: {}
+    controller: Controller\MainController
+    action: adminpost
+adminPostsAdd:
+    path: /admin/posts/add
+    parameters: {}
+    controller: Controller\MainController
+    action: adminpostadd
+adminPostsDelete:
+    path: /admin/posts/delete/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: adminpostsdelete
+adminPostsEdit:
+    path: /admin/posts/edit/:id
+    parameters: {id: '[\d]+'}
+    controller: Controller\MainController
+    action: adminpostsedit
+logout:
+    path: /logout
+    parameters: {}
+    controller: Controller\MainController
+    action: logout
+privacy:
+    path: /vie-privee
+    parameters: {}
+    controller: Controller\MainController
+    action: privacy
+legal:
+    path: /mentions-legales
+    parameters: {}
+    controller: Controller\MainController
+    action: legal
